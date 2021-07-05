@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #1F4C63;
+    height: 120px;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+nav div {
+    display: inline-block;
+    margin: 0;
+}
+.navItem {
+width: 70px;
+color: #E5E5E5;
+font-family: 'DM Sans', sans-serif;
+font-size: 18px;
+background-color: #1F4C63;
+border: 1px solid #1F4C63;
+padding: 15px 25px;
+text-align: center;
+transition: background-color 0.5s ease;
+float: right;
+}
+
+.navItem:hover {
+background-color: lightgray;
+color:#1F4C63 ;
+}
+.container {
+    display: flex;
+    }
+
+.leftBar{ 
+    background-color: white;
+    padding: 25px;
+    }
+
+.introImage img{
+max-width: 900px;
+box-shadow: 3px 3px rgb(206, 203, 203);
+}
+
+.Logo img{
+    max-width: 280px;
+    }
+
+.mainContent{
+    padding: 20px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.cardContainer {
+    background-color: lightgray;
+    padding: 20px;
+}
+.card {
+    height: 250px;
+    width: 1236px;
+    background-color:#FFFFFF;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+   }
+
+.unaMesaImage img{
+    max-width: 375px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.unaMesaInfo{
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+
+.button {
+    background-color: #474747;
+    color: #FFFFFF;
+    border-radius: 40px;
+    border: 1px solid #474747;
+    padding: 15px 25px;
+    text-decoration: none;
+    transition: background-color 0.5s case;
+}
+
+.button:hover{
+    background-color: #1F4C63;
+    border: #1F4C63;
+}
+
+.giftery img{
+    width: 375px;
+    height: 250px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.gifteryInfo{
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+
+.easy img{
+    width: 375px;
+    height: 250px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.easyInfo{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
