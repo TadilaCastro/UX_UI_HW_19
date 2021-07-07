@@ -55,12 +55,20 @@ box-shadow: 3px 3px rgb(206, 203, 203);
 .mainContent{
     padding: 20px;
     font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
 }
 
 .cardContainer {
-    background-color: lightgray;
+    background-color: #EAE8EB;
     padding: 20px;
 }
+
+.recentWork{
+    font-family: 'DM Sans', sans-serif;
+    color: #474747;
+    padding: 0 25px;
+}
+
 .card {
     height: 250px;
     width: 1236px;
@@ -69,7 +77,12 @@ box-shadow: 3px 3px rgb(206, 203, 203);
     text-align: center;
     border-radius: 10px;
     font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
+   }
+
+
+   .personalityType{
+       text-align: justify;
    }
 
 .unaMesaImage img{
@@ -85,10 +98,10 @@ flex-direction: column;
 }
 
 .button {
-    background-color: #474747;
+    background-color: #8C8888;
     color: #FFFFFF;
     border-radius: 40px;
-    border: 1px solid #474747;
+    border: 1px solid #8C8888;
     padding: 15px 25px;
     text-decoration: none;
     transition: background-color 0.5s case;
@@ -125,11 +138,28 @@ flex-direction: column;
     flex-direction: column;
 }
 
+/*FOOTER*/
+
+footer{
+    width: calc(100%-80px);
+    padding: 40px 40px;
+    height: 80px;
+    background-color: #C4C4C4;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #474747;
+}
+
+.letsConnect {
+    font-weight: 700;
+}
+
 
 #panel, #flip {
     padding: 5px;
     text-align: center;
-    background-color: lightgray;
+    background-color: #EAE8EB;
     border: solid 1px #c3c3c3;
   }
   
