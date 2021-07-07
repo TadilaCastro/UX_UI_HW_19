@@ -5,7 +5,7 @@ body{
 
 nav{
     background-color: #1F4C63;
-    height: 120px;
+    height: 56px;
     margin: 0;
     padding: 0;
     position: sticky;
@@ -124,3 +124,15 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
 }
+
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: lightgray;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
